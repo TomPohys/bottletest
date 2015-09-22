@@ -1,4 +1,4 @@
-"""
+﻿"""
 Routes and views for the bottle application.
 """
 
@@ -20,7 +20,7 @@ def contact():
     """Renders the contact page."""
     return dict(
         title='Contact',
-        message='Your contact page.',
+        message='Your contact page, Tomas Pohanka.',
         year=datetime.now().year
     )
 
