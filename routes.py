@@ -19,7 +19,7 @@ def home():
 def contact():
     """Renders the contact page."""
     return dict(
-        title='Contact',
+        title='Reality? Nope:',
         message='Your contact page, Tomas Pohanka.',
         year=datetime.now().year
     )
